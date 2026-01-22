@@ -1,0 +1,168 @@
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.6.87.2-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Jan 21 18:30:49 IST 2026
+
+  System load:  2.68                Processes:             31
+  Usage of /:   0.3% of 1006.85GB   Users logged in:       0
+  Memory usage: 13%                 IPv4 address for eth0: 172.19.39.50
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+This message is shown once a day. To disable it please create the
+/home/parmeet/.hushlogin file.
+parmeet@Parmeet:~$ mkdir cli-python-tools
+parmeet@Parmeet:~$ cd cli-python-tools
+parmeet@Parmeet:~/cli-python-tools$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/parmeet/cli-python-tools/.git/
+parmeet@Parmeet:~/cli-python-tools$ python3 -m ven v venv
+/usr/bin/python3: No module named ven
+parmeet@Parmeet:~/cli-python-tools$ touch main.py
+parmeet@Parmeet:~/cli-python-tools$ touch .gitignore
+parmeet@Parmeet:~/cli-python-tools$ touch README.md
+parmeet@Parmeet:~/cli-python-tools$ nano main.py
+parmeet@Parmeet:~/cli-python-tools$ nano main.py
+parmeet@Parmeet:~/cli-python-tools$ 
+parmeet@Parmeet:~/cli-python-tools$ 
+parmeet@Parmeet:~/cli-python-tools$ nano main.py
+parmeet@Parmeet:~/cli-python-tools$ 
+parmeet@Parmeet:~/cli-python-tools$ nano main.py
+parmeet@Parmeet:~/cli-python-tools$ 
+parmeet@Parmeet:~/cli-python-tools$ nano README.md
+parmeet@Parmeet:~/cli-python-tools$ 
+parmeet@Parmeet:~/cli-python-tools$ python3 main.py
+I want oo become ai engineer
+Today day is 2026-01-22 09:59:40.915349
+parmeet@Parmeet:~/cli-python-tools$ cat README.md
+This the first linux project and practice.This project has:
+
+- Terminal usage
+- Python script
+- Git Workflow
+
+parmeet@Parmeet:~/cli-python-tools$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        main.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+parmeet@Parmeet:~/cli-python-tools$ nano .gitignore
+parmeet@Parmeet:~/cli-python-tools$ git add .
+parmeet@Parmeet:~/cli-python-tools$ git commit -m "This is the first project commit"
+[master (root-commit) ba29d59] This is the first project commit
+ 2 files changed, 15 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 main.py
+parmeet@Parmeet:~/cli-python-tools$ git log
+commit ba29d59ea204c4577c2e8aedc9135f616d479bcd (HEAD -> master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 22 10:02:58 2026 +0530
+
+    This is the first project commit
+parmeet@Parmeet:~/cli-python-tools$ git remote -v
+parmeet@Parmeet:~/cli-python-tools$ git remote add origin https://github.com/parmsingh9899-hue/CLI-LINUX-USAGE-PROJECT.git
+parmeet@Parmeet:~/cli-python-tools$ git remote -v
+origin  https://github.com/parmsingh9899-hue/CLI-LINUX-USAGE-PROJECT.git (fetch)
+origin  https://github.com/parmsingh9899-hue/CLI-LINUX-USAGE-PROJECT.git (push)
+parmeet@Parmeet:~/cli-python-tools$ git branch
+* master
+parmeet@Parmeet:~/cli-python-tools$ git branch -M master
+parmeet@Parmeet:~/cli-python-tools$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 499 bytes | 124.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/parmsingh9899-hue/CLI-LINUX-USAGE-PROJECT.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+parmeet@Parmeet:~/cli-python-tools$ touch progress.txt
+parmeet@Parmeet:~/cli-python-tools$ nano progress.txt
+parmeet@Parmeet:~/cli-python-tools$ nano progress.txt
+parmeet@Parmeet:~/cli-python-tools$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+parmeet@Parmeet:~/cli-python-tools$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        progress.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+parmeet@Parmeet:~/cli-python-tools$ git add .
+parmeet@Parmeet:~/cli-python-tools$ git commit -m "Terminal progress"
+[master fc31add] Terminal progress
+ 1 file changed, 106 insertions(+)
+ create mode 100644 progress.txt
+parmeet@Parmeet:~/cli-python-tools$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.90 KiB | 277.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/parmsingh9899-hue/CLI-LINUX-USAGE-PROJECT.git
+   ba29d59..fc31add  master -> master
+parmeet@Parmeet:~/cli-python-tools$ git checkout -b dev
+Switched to a new branch 'dev'
+parmeet@Parmeet:~/cli-python-tools$ touch processing.txt
+parmeet@Parmeet:~/cli-python-tools$ nano processong.txt
+parmeet@Parmeet:~/cli-python-tools$ git add .
+parmeet@Parmeet:~/cli-python-tools$ git commit -m "dev branch-processing"
+[dev b15061b] dev branch-processing
+ 2 files changed, 1 insertion(+)
+ create mode 100644 processing.txt
+ create mode 100644 processong.txt
+parmeet@Parmeet:~/cli-python-tools$ git log
+commit b15061b72187a00270f1f81e79f2e0bedfd062ad (HEAD -> dev)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 22 10:12:15 2026 +0530
+
+    dev branch-processing
+
+commit fc31add46b26476d0333c3e856e45828ed4aea6a (origin/master, master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 22 10:10:10 2026 +0530
+
+
+    dev branch-processing
+
+commit fc31add46b26476d0333c3e856e45828ed4aea6a (origin/master, master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 22 10:10:10 2026 +0530
+
+parmeet@Parmeet:~/cli-python-tools$ git branch
+* dev
+  master
+parmeet@Parmeet:~/cli-python-tools$ git final_progress.txt
+git: 'final_progress.txt' is not a git command. See 'git --help'.
+parmeet@Parmeet:~/cli-python-tools$ nano final_progress.txt
+parmeet@Parmeet:~/cli-python-tools$ 
